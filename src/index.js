@@ -2,7 +2,7 @@ const { data } = require('../kbbi')
 const express = require('express')
 const app = express()
 
-app.get('/', async (req, res) => {
+app.get('/sk', async (req, res) => {
   if (!req.query.q)
     return res.send({
       info: 'Selamat datang di cheat sambung-kata API :vrotttt',
