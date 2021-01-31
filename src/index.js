@@ -10,7 +10,7 @@ app.get('/sk', async (req, res) => {
       tutorial:
         'Gunakan q query untuk mencari kata, dan gunakan l query untuk mencari kata dengan minimal hurufnya',
       contoh: 'https://api.hana.uno/sk?q=bi&l=10',
-      author: 'https://github.com/hanahneull/'
+      author: 'https://github.com/hanahaneull/'
     })
   res.send(
     data
