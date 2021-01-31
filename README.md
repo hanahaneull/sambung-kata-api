@@ -5,6 +5,10 @@ Secara default, semua result dimulai dari kata yang mempunyai huruf terbanyak.
 
 ## Usage
 
+### Base path
+
+``http://localhost/sk``
+
 ### Query
 
 #### q
@@ -16,7 +20,11 @@ Mencari kata yang mempunyai huruf yang sudah ditentukan
 ## Contoh
 
 Mencari kata dengan awalan ``bi`` dan mempunyai ``10`` huruf.  
-``http://localhost:8520/?q=bi&l=10``
+``http://localhost:8520/sk?q=bi&l=10``
+
+# Credits
+
+Contributor [KBBI-QT](https://github.com/bgli/kbbi-qt)
 
 # Licenses
 
