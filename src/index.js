@@ -22,9 +22,9 @@ app.get('/', async (req, res) => {
   )
 })
 
-// app.use((req, res) => {
-//   res.status(404).redirect('/')
-// })
+app.use((req, res) => {
+  res.status(404).redirect('/')
+})
 
 app.listen(8520, () => {
   console.log('Api started on port 8520')
