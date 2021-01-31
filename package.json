@@ -1,0 +1,19 @@
+{
+  "name": "sambung-kata-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "WTFPL",
+  "author": {
+    "email": "hana@disroot.org",
+    "name": "Haneul Seong",
+    "url": "https://hana.uno/"
+  },
+  "homepage": "https://api.hana.uno/sk",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "string-strip-html": "^8.0.0",
+    "unescape": "^1.0.1"
+  }
+}
