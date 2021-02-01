@@ -4,4 +4,3 @@ deployment:
     - /usr/local/cpanel/3rdparty/lib/path-bin/git push master origin
     - export DEPLOYPATH=/home/hanauno/nodejs/sambung-kata-api/
     - /bin/cp -R . $DEPLOYPATH
-# test
