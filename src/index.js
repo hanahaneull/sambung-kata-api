@@ -1,5 +1,6 @@
 const { data } = require('../kbbi')
 const express = require('express')
+const filter = require('lodash.filter')
 const app = express()
 
 app.get('/sk', async (req, res) => {
@@ -13,12 +14,9 @@ app.get('/sk', async (req, res) => {
       author: 'https://github.com/hanahaneull/'
     })
   res.send(
-    data
-      .filter(
-        x =>
-          x.word.startsWith(req.query.q) && x.word.length > (req.query.l || 0)
-      )
-      .sort((a, b) => b.word.length - a.word.length)
+    filter(data, x => x.word.startsWith(req.query.q)).sort(
+      (a, b) => b.word.length - a.word.length
+    )
   )
 })
 

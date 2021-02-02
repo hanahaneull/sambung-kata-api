@@ -10,7 +10,8 @@
   },
   "homepage": "https://api.hana.uno/sk",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash.filter": "^4.6.0"
   },
   "devDependencies": {
     "string-strip-html": "^8.0.0",
